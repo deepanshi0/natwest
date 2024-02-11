@@ -1,0 +1,97 @@
+/* Header.css */
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&display=swap");
+.header {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  height: 5rem;
+  /* width: 100%; */
+  position: relative;
+  /* border: 1px solid white; */
+  width: 100vw;
+}
+
+.title {
+  color: aliceblue;
+  /* padding-left: 3%; */
+  margin: 0 1.1rem;
+  /* justify-content: space-between; */
+  font-size: 2vw;
+  text-transform: uppercase;
+  font-family: "Dangrek", cursive;
+  /* text-align: center; */
+}
+
+.form {
+  /* border: 1px solid red; */
+  position: absolute;
+  right: 1%;
+}
+.search {
+  filter: invert(0);
+}
+@media (max-width: 900px) {
+  .header {
+    justify-content: space-evenly;
+    height: 25vh;
+  }
+  .title {
+    font-size: 11vw;
+  }
+}
+.search-input {
+  width: 40vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.searchbtn {
+  margin: 1rem;
+  border: none;
+  padding: 0.5rem;
+  width: 7rem;
+  cursor: pointer;
+}
+.searchdiv {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 40vw;
+  height: 39px;
+  /* background-color: white; */
+}
+
+.pic {
+  /* border: 2px solid white; */
+  /* border-radius: 50%; */
+  height: 2.6rem;
+  width: 2.8rem;
+  /* display: inline-block; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 1rem; */
+}
+.pic img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.state-analysis-btn {
+  margin: 0.8rem;
+  margin-left: 1rem;
+  width: 150px;
+  height: 40px;
+  background-color: #1f1f1f;
+  color: white;
+  font-size: 1.1vw;
+  font-family: "Dangrek", cursive;
+}

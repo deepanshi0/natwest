@@ -1,0 +1,33 @@
+/* Add this to your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+.recent-searches {
+    position: absolute;
+    right: 0;
+    top: 150px; /* Adjust based on your header height */
+    width: 410px; /* Adjust width as needed */
+    background-color: #ffffff;
+    /* transform: translate(-50%, -50%); */
+    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+    border: 2px solid #ccc;
+    padding: 20px;
+    height: calc(100% - 310px); /* Adjust height as needed */
+    overflow-y: auto; /* Enable scroll for overflow */
+  }
+  
+.recent-list{
+    color: rgb(0, 2, 3);
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: 'Dangrek', cursive;
+}
+.listitem{
+    color: rgb(0, 2, 3);
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: 'Dangrek', cursive;
+}
